@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Client, Movie, MovieShow, HallSeat
 
-# Register your models here.
+admin.site.register(Client)
+admin.site.register(Movie)
+admin.site.register(MovieShow)
+admin.site.register(HallSeat)
